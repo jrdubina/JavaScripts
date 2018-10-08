@@ -1,10 +1,5 @@
 <script type="text/javascript">
   $(document).ready(function(){
-  // Using this for the Features Page to insert ID's so a menu can be used to link each section
-    $('section').each(function(i) {
-      $(this).attr( 'id', "section" + i );
-    });
-
     // ALL Images Modal Pop Up
     $('section .modal-this').each(function(i) {
       ++i;
