@@ -43,4 +43,8 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 // Rock and Roll
 $(document).ready(function(){
 	clickNav();
+	// Using this for the Features Page to insert ID's so a menu can be used to link each section
+	$('section').each(function(i) {
+	  $(this).attr( 'id', "section" + i );
+	});
 });
